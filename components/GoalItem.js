@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   goalText: {
     fontSize: 16,
-    marginBottom: 10, // Ajoute un espace entre le texte et les boutons
+    marginBottom: 10, 
     textAlign: 'center',
   },
   buttonGroup: {
