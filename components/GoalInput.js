@@ -6,7 +6,7 @@ export default function GoalInput({ visible, onAddGoal, onCancel, initialGoal })
 
   useEffect(() => {
     if (initialGoal) {
-      setEnteredGoal(initialGoal); // Définit la valeur initiale lors de l'édition
+      setEnteredGoal(initialGoal); 
     }
   }, [initialGoal]);
 
